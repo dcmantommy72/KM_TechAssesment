@@ -1,2 +1,30 @@
-# KM_TechAssesment
-Technical Assessment For Konica Minolta: Line Game In JavaScript
+# Technical Assessment: Line Game
+
+This game is a coding assessment project built for Konica Minolta and is intended for thier use only.
+
+## About
+
+dots.js - Server side code for game. Native JavaScript ES6. <br>
+init.js - Selects the API that is being used. <br>
+ui.js - Displays the grid and plots lines. <br>
+<br>
+To restart the game you must refresh the page.
+
+## Author
+v.1.0.0 <br>
+Tom Gilligan <br>
+Email: gilligan.tom@gmail.com <br>
+Cell: 860-922-4314 <br>
+
+## Installation
+
+This project uses the 'Client' API to communicate with the server and requires no installation of any dependencies or server.
+
+Simply open up index.html in your browser from the files current directory and code should execute.
+
+Also this code can be seen and run on CodePen.IO: 
+https://codepen.io/Tom-Gilligan/pen/MWYjRqx 
+
+## License
+[MIT]
+(https://choosealicense.com/licenses/mit/)
