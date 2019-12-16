@@ -10,34 +10,61 @@ html {
 
 body {
     font-size: 1.6rem;
-/*     width: 100vw;
-    height: 100vh; */
 }
 
-
-#topHead {
-/*     position: relative; */
+h1 {
     text-align: center;
-/*     width: 100%; */
-
 }
-#rules {
-    /* position: fixed; */
-/*     width: 100%; */
+
+li {
+    font-size: 1.6rem;
+    margin-bottom: 1px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  #rules {
     text-align: center;
     font-size: 14px;
+    top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     position: relative;
-/*     text-align: center; */
-    /* width: 100vw; */
+    padding-left: 0px;
 }
 
 #app,
 #app .error-wrapper {
-/*     width: 100vw;
-    height: 100vh; */
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -48,7 +75,6 @@ ul {
     line-height: 0;
     position: relative;
     text-align: center;
-/*     bottom: 60px; */
     
 }
 
@@ -58,9 +84,7 @@ ul {
     left: 0;
 }
 
-#app .heading,
-#app .message {
-    position: relative;
+#app .heading, #app .message {
     left: 0;
     width: 100vw;
     text-align: center;
@@ -68,15 +92,19 @@ ul {
 }
 
 #app .heading {
-    /* top: 170px; */
     color: darkblue;
     bottom: 3px;
 }
 
 #app .message {
-    position: relative;
-    /* bottom: 100px; */
+    padding-bottom: 80px;
     top: 20px;
+    font-size: 1.9rem;
+    color: #037d28;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #app .error {

@@ -1,4 +1,6 @@
-//===============================================
+'use strict';
+//
+//==================================================
 // dotgame.js v1.0.0 - 12/12/19
 // Technical Assesment For Konica Minolta
 // Author: Tom Gilligan
@@ -6,7 +8,9 @@
 // View This Project On Code Pen:
 // https://codepen.io/Tom-Gilligan/pen/MWYjRqx 
 // View This Project On Git Hub: 
-//===============================================
+// https://github.com/dcmantommy72/KM_TechAssessment
+//==================================================
+//
 // INITIALIZE
 let startNode = {};
 let endNode = {};

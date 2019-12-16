@@ -6,25 +6,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="topHead">
-        <h2>LINE GAME : CODING ASSESMENT</h2>
-      </div>
+  <header class="header">
+    <h1>LINE GAME:</h1>
+  </header>
+  <!-- <h1>LINE GAME:</h1> -->
       <div id="rules">
         <ul style="list-style: none;">
           <h2>GAME-RULES</h2>
-          <li>1. Take turns drawing octilinear lines connecting nodes.</li>
+          <li>1. Take turns drawing lines that connect nodes.</li>
           <li>2. Lines must begin at the start or end of the existing path.</li>
-          <li>3. Lines may connect any number of nodes.</li>
+          <li>3. Lines must be either horizontal, vertical, or diagonal.</li>
           <li>4. Lines can not intersect and no nodes can be visited twice.</li>
           <li>5. The game ends when no valid lines can be drawn.</li>
-          <li>6. The last player who draws a line loses!</li>
+          <li>6. The last player who has to draw a line loses!</li>
           </ul>
       </div>
       <div id="app"></div>
+      <footer class="footer">
+        <p>View On CodePen.IO: <a href="https://codepen.io/Tom-Gilligan/pen/MWYjRqx">https://codepen.io/Tom-Gilligan/pen/MWYjRqx</a> OR GitHub
+        <a href="https://github.com/dcmantommy72/KM_TechAssessment">https://github.com/dcmantommy72/KM_TechAssessment</a><br>
+        <br>&copy;2019 by Tom Gilligan: gilligan.tom@gmail.com</p> 
+      </footer>
   <script src="ui.js"></script>
   <script src="init.js"></script>
   <script src="dots.js"></script>
-  <!-- <script src="DotGame-Clean.js"></script> -->
 </body>
 </html>
 
