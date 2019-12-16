@@ -4,9 +4,7 @@ This game is a coding assessment project built for Konica Minolta and is intende
 
 ## Author
 v.1.0.0 <br>
-Tom Gilligan <br>
-Email: gilligan.tom@gmail.com <br>
-Cell: 860-922-4314 <br>
+Tom Gilligan - Email: gilligan.tom@gmail.com - Cell: 860-922-4314
 
 ## Installation
 
