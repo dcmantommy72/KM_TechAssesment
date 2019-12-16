@@ -2,14 +2,6 @@
 
 This game is a coding assessment project built for Konica Minolta and is intended for thier use only.
 
-## About
-
-dots.js - Server side code for game. Native JavaScript ES6. <br>
-init.js - Selects the API that is being used. <br>
-ui.js - Displays the grid and plots lines. <br>
-<br>
-To restart the game you must refresh the page.
-
 ## Author
 v.1.0.0 <br>
 Tom Gilligan <br>
@@ -24,6 +16,14 @@ Simply open up index.html in your browser from the files current directory and c
 
 Also this code can be seen and run on CodePen.IO: 
 https://codepen.io/Tom-Gilligan/pen/MWYjRqx 
+
+## Notes
+
+dots.js - Server side code for game. Native JavaScript ES6. <br>
+init.js - Selects the API that is being used. <br>
+ui.js - Displays the grid and plots lines. <br>
+<br>
+To restart the game you must refresh the page.
 
 ## License
 [MIT]
